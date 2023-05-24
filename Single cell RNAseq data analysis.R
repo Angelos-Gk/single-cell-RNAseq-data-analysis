@@ -108,6 +108,3 @@ nsclc.seurat.obj <- RunUMAP(nsclc.seurat.obj, dims = 1:15)
 DimPlot(nsclc.seurat.obj, reduction = "umap")
 
 sessionInfo()
-
-
-
