@@ -1,4 +1,3 @@
-#setwd("C:/Users/angel/Desktop/Rthings/Bioinformagician/scRNAseq analysis")
 
 library(SingleR)
 library(celldex)
