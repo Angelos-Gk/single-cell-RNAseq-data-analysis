@@ -1,4 +1,3 @@
-# setwd("C:/Users/angel/Desktop/Rthings/Bioinformagician/scRNAseq analysis")
 
 # load libraries
 library(Seurat)
@@ -108,7 +107,7 @@ nsclc.seurat.obj <- RunUMAP(nsclc.seurat.obj, dims = 1:15)
 # you can set 'label=TRUE' or use LabelClusters to help label individual clusters
 DimPlot(nsclc.seurat.obj, reduction = "umap")
 
-
+sessionInfo()
 
 
 
