@@ -4,7 +4,7 @@ library(Seurat)
 library(tidyverse)
 
 # load the dataset (Non Small Cell Lung Cancer)
-nsclc.sparse.m <- Read10X_h5(filename='C:/Users/angel/Desktop/Rthings/Bioinformagician/scRNAseq analysis/20k_NSCLC_DTC_3p_nextgem_Multiplex_count_raw_feature_bc_matrix.h5')
+nsclc.sparse.m <- Read10X_h5(filename='C:/Users/angel/Desktop/Rthings/scRNAseq analysis/20k_NSCLC_DTC_3p_nextgem_Multiplex_count_raw_feature_bc_matrix.h5')
 # check modalities
 str(nsclc.sparse.m)
 # get counts for gene expression
