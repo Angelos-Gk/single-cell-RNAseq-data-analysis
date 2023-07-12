@@ -1,4 +1,3 @@
-#setwd("C:/Users/angel/Desktop/Rthings/Bioinformagician/scRNAseq analysis")
 
 library(SingleR)
 library(celldex)
@@ -124,4 +123,3 @@ dice.file <- system.file("mapping","dice.tsv", package = "celldex")
 dice.mapping <- read.delim(dice.file, header = F)
 
 sessionInfo()
-
